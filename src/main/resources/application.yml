@@ -1,0 +1,11 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/reactive_test_db
+    username: postgres
+    password: nana@123
+  flyway:
+    url: jdbc:postgresql://localhost:5432/reactive_test_db
+    user: postgres
+    password: nana@123
+server:
+  port: 9094
